@@ -1,12 +1,11 @@
 variable "region" {
     default = "us-east-1"  
 }
-variable "enviroment" {
+variable "environment" {
     default = "Development"
   
 }
 variable "vpc_cidr" {
     description = "Vpc cidr block"
-    
   
 }
